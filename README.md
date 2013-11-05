@@ -12,3 +12,9 @@ Installing:
 
     make
 	sudo make install
+
+The __make install__ job will default to /usr/share/fortune. If your fortunes are elsewhere, use it like this:
+
+    sudo INSTALL_PATH=/path/to/my/fortunes make install
+
+
