@@ -1,4 +1,4 @@
-# Legend of the Galactic Heroes
+# Legend of the Galactic Heroes quotes
 
 If you have ever watched this series, you know it is not a common show.
 
