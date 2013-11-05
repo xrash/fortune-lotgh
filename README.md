@@ -11,4 +11,4 @@ For now, I got only english quotes, but soon there will be a portuguese version.
 Installing:
 
     make
-	make install
+	sudo make install
