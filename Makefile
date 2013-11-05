@@ -1,4 +1,4 @@
-INSTALL_PATH?=/$(shell fortune -f 2>&1 | head -n 1 | cut -d '/' -f 2-)
+INSTALL_PATH?=$(shell file /usr/share/fortune /usr/share/games/fortunes | grep -v ERROR | head -n 1 | cut -d ':' -f 1)
 
 lotgh.dat : lotgh
 	strfile lotgh lotgh.dat

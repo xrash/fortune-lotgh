@@ -17,4 +17,7 @@ The __make install__ job will default to __make path__. If your fortunes are els
 
     sudo INSTALL_PATH=/path/to/my/fortunes make install
 
+To know where your fortunes are, run:
+
+    fortune -f
 
